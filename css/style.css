@@ -1,0 +1,148 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.united{
+    margin-top: 8px;
+    height: 50px;
+    /*margin-left: 40px;*/
+}
+
+.inputSearch{
+    margin-top: 26px;
+    color: #003da0;
+}
+.search {
+    font-size: 30px;
+}
+.input{
+    border-radius: 15px;
+    border: 1px solid;
+    color: #003da0;
+    width: 250px;
+    height: 30px;
+    transition: all 0.5s;
+}
+.español{
+    font-size: 30px;
+    border: 0cap;
+    margin-top: 26px;
+    text-decoration: none;
+    color: #003da0;
+}
+.singin{
+    border: none;
+    background-color: rgb(241, 241, 241);
+    height: 80px;
+    font-size: 20px;
+    /*margin-right: 20px;*/
+    color: #003da0;
+    width: 200px;
+}
+.flecha{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    margin-top: 16px;
+    display: flex;
+    background-color: #003da0;
+    color: white;
+    text-decoration: none;
+    width: 19.5%;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: all 0.3s;
+    text-align: center;
+    /*1.valor el estilo, y yo le digo TODO = ALL */
+    /*2.VALOR la duracion de la transicion. 0.5s = medio segundo 1s = 1segundo*/
+}
+
+.linkVacio{
+
+    margin-top: 16px;
+    margin-right: 20px;
+    display: flex;
+    background-color: #003da0;
+    height: 130px;
+}
+
+.section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.explore{
+    margin-top: 20px;
+    width: 80%;
+}
+.text{
+    margin-top: 15px;
+    font-size: 40px;
+    text-align: center;
+    color: #003da0;
+}
+.footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.imgFooter{
+    padding: 40px;
+    background-color: rgb(247, 247, 247);
+    width: 35%;
+    margin: 20px;
+    transition: all 0.5s;
+}
+/* condicional o rango en el cual queremos que se activen los estilos adentro del @media */
+
+/*max-width determina el limite superior o maximo de la pantalla...*/
+/* Todo tamaño menor a 768px activara los estilos */
+@media (max-width:1024px){
+    .link {
+        font-size: 24px;
+    }
+    .search {
+        font-size: 24px;
+    }
+    .español {
+        font-size: 24px;
+    }
+    .singin {
+
+        font-size: 18px;
+    }
+    .input {
+        width: 220px;
+        height: 25px;
+    }
+    .united {
+        height: 42px;
+    }
+}
+@media (max-width:940px){
+    .imgFooter{
+        padding: 20px;
+        margin: 5px;
+    }
+    .text{
+        font-size: 34px;
+    }
+
+}
